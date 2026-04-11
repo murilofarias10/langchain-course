@@ -1,0 +1,15 @@
+https://smith.langchain.com/ 
+https://www.tavily.com/
+
+.\lc-academy-env\Scripts\activate
+deactivate
+
+using the vm inside studio folder> langgraph dev
+
+LangGraph: also has an IDE
+    Persistence
+    Streaming
+    Human In The Loop
+    Controlability
+
+LangChain are kind of components as LLMs, vectorstores, etc
