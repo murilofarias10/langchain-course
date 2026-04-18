@@ -3,7 +3,7 @@
   "graphs": {
     "simple_graph": "./simple.py:graph",
     "router": "./router.py:graph",
-    "agent": "./agent.py:graph"
+    "murilo_agent_module1": "./agent_module1.py:graph"
   },
   "env": "./.env",
   "python_version": "3.11",

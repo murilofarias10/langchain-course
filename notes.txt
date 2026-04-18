@@ -17,3 +17,8 @@ LangChain are kind of components as LLMs, vectorstores, etc
 Inside module-1
     simple-graph.ipynb I have a condition between node 2 and node 3 going to the end
     agent-memory.ipynb I have a loop between assistant and tools before go to the end
+
+
+Old: model="gpt-3.5-turbo-0125"
+
+New: model="gpt-4o-mini"
