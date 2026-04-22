@@ -6,19 +6,53 @@ deactivate
 
 using the vm inside studio folder> langgraph dev
 
-LangGraph: also has an IDE
-    Persistence
-    Streaming
-    Human In The Loop
-    Controlability
-
-LangChain are kind of components as LLMs, vectorstores, etc
-
-Inside module-1
-    simple-graph.ipynb I have a condition between node 2 and node 3 going to the end
-    agent-memory.ipynb I have a loop between assistant and tools before go to the end
-
-
 Old: model="gpt-3.5-turbo-0125"
 
 New: model="gpt-4o-mini"
+
+Module 1 to module 4 was:
+    -Understand about what agents are 
+    -The core about LangGraph
+    -Applying memory with LangGraph
+    -How to incorporate human in the loop 
+    -and more (need to write more about module 1 to 4 here)
+
+Module 1:
+    -Introduction to Basics about LLMs
+    -LLM's router: they have less Control.
+    -LLM's fully autonomous: they have more control over themself. 
+    -LangGraph helps to be between router and fully autonomous.
+
+    -LangGraph: also has an IDE (and LangGraph has LangChain on it workflow)
+        Persistence
+        Streaming
+        Human In The Loop
+        Controlability
+
+    -LangChain are kind of components as LLMs, vectorstores, etc
+
+Module 2:
+    -AI to remember first interactions so in this case Introduction to memory 
+    -Concept of memory and how to add Persistence to graph
+    -A lot of ways to mitage problem of long tokens:
+        Filtering, Trimming, summarization 
+    -Also use SQL-Lite to save memory
+
+Module 3:
+    -Introduction to human in the loop.
+    -Concept of breakpoints:
+        Wait for use approval
+        Insert user input in the middle
+        Modify the input to the model
+
+Module 4: 
+    Create your AI assistant that can works for you
+        Web-search, document-retrieval
+        Summarizing meetings, writing social media, internal documentation
+    AI role play with spefici sub-goals related 
+    Controlability features in LangGraph
+        Parallezations, sub-graphs
+    Map reduce to parallelize which sppeds up the process
+    Human in the loop to review outputs
+    Connect LangGraph to external reporting tools as Slack
+    
